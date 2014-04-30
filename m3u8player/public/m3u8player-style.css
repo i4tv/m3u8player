@@ -1,0 +1,17 @@
+body {
+    font-family: 'Vollkorn', arial, serif;
+}
+
+h1 {
+    margin-bottom: 0px;
+}
+
+.parameter {
+    font-size:  80%;
+    margin-top: 1ex;
+    margin-bottom: 1ex;
+}
+
+.footer {
+    margin-top: 2ex;
+}
