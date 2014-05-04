@@ -1,6 +1,7 @@
 # -*- coding: UTF-8 -*-
 
 from mediacore.lib.players import AbstractFlashPlayer
+from mediacore.lib.util import url_for
 
 class M3U8Player(AbstractFlashPlayer):
     name = u'm3u8player'
@@ -10,7 +11,7 @@ class M3U8Player(AbstractFlashPlayer):
 
     def swf_url(self):
         """Return the flash player URL."""
-        return url_for('/scripts/third-party/flowplayer/flowplayer-3.2.14.swf', qualified=self.qualified)
+        return url_for('/scripts/third-party/HLSProviderChromeless.swf', qualified=self.qualified)
 
 
     def flashvars(self):

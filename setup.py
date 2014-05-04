@@ -1,6 +1,10 @@
 
 from setuptools import setup, find_packages
 
+extractors = [
+    ('/m3u8player/public/**', 'ignore', None),
+]
+
 setup(
       name='M3U8Player',
       version='1.0',
