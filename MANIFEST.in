@@ -1,0 +1,9 @@
+# MANIFEST.in lists all extra files for sdist to include in a distribution.
+
+# By default, because we specify no MANIFEST file, sdist will include
+# README.txt, all *.py files it finds, etc... For a full list, see:
+# http://docs.python.org/distutils/sourcedist.html#specifying-the-files-to-distribute
+
+# Include all files in these directories
+graft m3u8player/public
+
