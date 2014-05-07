@@ -10,6 +10,11 @@ setup(
     license='GPL v3 or later',
 
     packages=find_packages(),
+
+    package_data = {
+        'm3u8player': ['public/scripts/third-party/*', 'templates/*'],
+    },
+
     entry_points = {
         'mediacore.plugin': [
             'm3u8player = m3u8player.mediacore_plugin',
