@@ -11,7 +11,7 @@ class M3U8Player(AbstractFlashPlayer):
 
     def swf_url(self):
         """Return the flash player URL."""
-        return url_for('/scripts/third-party/HLSProviderChromeless.swf', qualified=self.qualified)
+        return url_for('/m3u8player/public/scripts/third-party/HLSProviderChromeless.swf', qualified=self.qualified)
 
 
     def flashvars(self):
